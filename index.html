@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vivero La Tigra</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #F5F5F5;
+        }
+        header {
+            background-color: #4D6A4D;
+            color: white;
+            padding: 10px 0;
+            text-align: center;
+        }
+        nav {
+            background-color: #3B513B;
+            overflow: hidden;
+        }
+        nav a {
+            float: left;
+            display: block;
+            color: white;
+            text-align: center;
+            padding: 14px 16px;
+            text-decoration: none;
+        }
+        nav a:hover {
+            background-color: #2F402F;
+        }
+        .container {
+            padding: 20px;
+        }
+        .section-title {
+            color: #4D6A4D;
+            margin-bottom: 10px;
+        }
+        .products, .services {
+            display: flex;
+            flex-wrap: wrap;
+        }
+        .product, .service {
+            background-color: white;
+            border: 1px solid #E0E0E0;
+            border-radius: 5px;
+            margin: 10px;
+            padding: 10px;
+            flex: 1;
+            min-width: 200px;
+            text-align: center;
+        }
+        footer {
+            background-color: #4D6A4D;
+            color: white;
+            text-align: center;
+            padding: 10px 0;
+            position: relative;
+            bottom: 0;
+            width: 100%;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <img src="logo.jpg" alt="Vivero La Tigra Logo" style="width: 100px;">
+        <h1>Vivero La Tigra</h1>
+    </header>
+    <nav>
+        <a href="#inicio">Inicio</a>
+        <a href="#sobre-nosotros">Sobre Nosotros</a>
+        <a href="#productos">Productos</a>
+        <a href="#servicios">Servicios</a>
+        <a href="#contacto">Contacto</a>
+    </nav>
+    <div class="container" id="inicio">
+        <h2 class="section-title">Bienvenidos a Vivero La Tigra</h2>
+        <p>Especializados en plantas ornamentales y servicios de jardinería en La Tigra de San Carlos, Costa Rica. ¡Embellece tu hogar con nuestras plantas tropicales y palmeras!</p>
+    </div>
+    <div class="container" id="sobre-nosotros">
+        <h2 class="section-title">Sobre Nosotros</h2>
+        <p>Ubicados en La Tigra de San Carlos, Costa Rica, contamos con más de 25 años de experiencia en el área de plantas ornamentales. Nos enorgullece ofrecer productos de la mejor calidad y servicios excepcionales de jardinería.</p>
+    </div>
+    <div class="container" id="productos">
+        <h2 class="section-title">Nuestros Productos</h2>
+        <div class="products">
+            <div class="product">
+                <h3>Palmeras</h3>
+                <p>Variedad de palmeras para darle un toque tropical a tu jardín.</p>
+            </div>
+            <div class="product">
+                <h3>Plantas Tropicales</h3>
+                <p>Hermosas plantas tropicales que transformarán cualquier espacio.</p>
+            </div>
+        </div>
+    </div>
+    <div class="container" id="servicios">
+        <h2 class="section-title">Nuestros Servicios</h2>
+        <div class="services">
+            <div class="service">
+                <h3>Diseño de Jardines</h3>
+                <p>Diseñamos jardines personalizados para cualquier espacio.</p>
+            </div>
+            <div class="service">
+                <h3>Instalación de Plantas</h3>
+                <p>Servicio profesional de instalación de plantas para asegurar su crecimiento óptimo.</p>
+            </div>
+        </div>
+    </div>
+    <div class="container" id="contacto">
+        <h2 class="section-title">Contacto</h2>
+        <p>Puedes encontrarnos en:</p>
+        <ul>
+            <li>WhatsApp</li>
+            <li>Facebook</li>
+            <li>Instagram</li>
+            <li>TikTok</li>
+        </ul>
+    </div>
+    <footer>
+        <p>&copy; 2024 Vivero La Tigra. Todos los derechos reservados.</p>
+    </footer>
+</body>
+</html>
